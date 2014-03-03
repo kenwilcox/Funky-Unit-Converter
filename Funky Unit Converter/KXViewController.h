@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface KXViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *numberOfBillsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *numberOfBillsTextField;
+
+- (IBAction)convertUnits:(UIButton *)sender;
 
 @end
